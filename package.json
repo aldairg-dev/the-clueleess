@@ -1,15 +1,20 @@
 {
-  "name": "love-terminal",
+  "name": "name-to-heart",
   "version": "1.0.0",
-  "description": "Love Terminal by Sandreke - Create hearts with letters",
+  "description": "Heart with Your Name - Create romantic hearts with letters",
   "main": "index.html",
   "scripts": {
     "dev": "python -m http.server 8000",
-    "start": "python -m http.server 8000"
+    "start": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "serve": "python -m http.server 8000"
   },
-  "keywords": ["love", "terminal", "heart", "romantic"],
+  "keywords": ["love", "terminal", "heart", "romantic", "name", "valentine"],
   "author": "Sandreke",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
 
 
